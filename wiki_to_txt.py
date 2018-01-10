@@ -28,8 +28,8 @@ class Wiki_to_txt(object):
 		with open("wiki_text.txt", 'w', encoding = 'utf-8') as output:
 			text_count = 0
 			for text in wiki_corpus.get_texts():
-				# save use byte and decode utf-8
-				output.write(b' '.join(text).decode('utf-8') + '\n')
+				# save use string(gensim)
+				output.write(' '.join(text) + '\n')
 				text_count += 1
 				if text_count % 10000 == 0:
 					logging.info("目前已處理 %d 篇文章" % text_count)
