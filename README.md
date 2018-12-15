@@ -67,3 +67,4 @@ Python 3.5.2</br>
 pip install gensim</br>
 pip install jieba</br>
 pip install hanziconv</br>
+note: if your gensim can't install, please check your os then install correct gensim version.</br>
