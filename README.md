@@ -3,10 +3,10 @@ Word2vec 是基於非監督式學習，訓練集建議越大越好，語料涵�
 
 ![demo](https://github.com/Alex-CHUN-YU/Word2vec/blob/master/image/demo.png)</br></br>
 WiKi簡介:</br>
-Word2vec is a group of related models that are used to produce word embeddings. These models are shallow, two-layer neural networks that are trained to reconstruct linguistic contexts of words. Word2vec takes as its input a large corpus of text and produces a vector space, typically of several hundred dimensions, with each unique word in the corpus being assigned a corresponding vector in the space. Word vectors are positioned in the vector space such that words that share common contexts in the corpus are located in close proximity to one another in the space. By the way, Skip-Gram 是給定 input word 來預測上下文。而 CBOW 是給定上下文，來預測 input word.</br>
-by the way :</br>
-Skip-gram: works well with small amount of the training data, represents well even rare words or phrases.</br>
+Word2vec is a group of related models that are used to produce word embeddings. These models are shallow, two-layer neural networks that are trained to reconstruct linguistic contexts of words. Word2vec takes as its input a large corpus of text and produces a vector space, typically of several hundred dimensions, with each unique word in the corpus being assigned a corresponding vector in the space. Word vectors are positioned in the vector space such that words that share common contexts in the corpus are located in close proximity to one another in the space.</br></br>
 
+By the way :</br>
+Skip-gram: works well with small amount of the training data, represents well even rare words or phrases.</br>
 CBOW: several times faster to train than the skip-gram, slightly better accuracy for the frequent words.
 
 ## 使用方式
