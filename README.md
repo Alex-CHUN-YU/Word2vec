@@ -1,6 +1,5 @@
 # Word2Vec
 Word2vec 是基於非監督式學習，訓練集建議越大越好，語料涵蓋的越全面，訓練出來的結果相對比較好，當然也有可能 garbage input 進而得到 garbage output ，由於檔案所使用的資料集較大，所以每個過程中都請耐心等候。(ps: word2vec 如果把每種字當成一個維度，假設總共有 4000 個總字，那麼向量就會有 4000 維度。故可透過它來降低維度)</br></br>
-此網址可以讓你更了解它(http://cpmarkchang.logdown.com/posts/773062-neural-network-word2vec-part-1-overview)
 
 ![demo](https://github.com/Alex-CHUN-YU/Word2vec/blob/master/image/demo.png)</br></br>
 WiKi簡介:</br>
