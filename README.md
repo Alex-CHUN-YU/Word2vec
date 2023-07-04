@@ -63,7 +63,7 @@ https://radimrehurek.com/gensim/corpora/wikicorpus.html</br>
 https://radimrehurek.com/gensim/models/word2vec.html</br>
 ## 開發環境
 Python 3.5.2</br>
-pip install gensim</br>
-pip install jieba</br>
-pip install hanziconv</br>
+```bash
+pip install -r requirements.txt
+```
 [note: if your gensim can't install, please check your os then install correct gensim version.](https://blog.csdn.net/dalangzhonghangxing/article/details/78191593)</br>
