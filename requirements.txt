@@ -1,0 +1,6 @@
+gensim==4.3.1
+hanziconv==0.3.2
+jieba==0.42.1
+numpy==1.25.0
+scipy==1.11.1
+smart-open==6.3.0
